@@ -1,4 +1,4 @@
-import Level3 from './Level3';
+import Level3 from '../Level3';
 
 function Level2() {
     return (

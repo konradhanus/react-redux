@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import configureStore from './store';
+import configureStore, { sagaMiddleware } from './store';
 import { Provider } from 'react-redux';
+import initSagas from './initSagas';
 
 const store = configureStore();
+initSagas(sagaMiddleware);
+
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>

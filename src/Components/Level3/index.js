@@ -1,4 +1,4 @@
-import {TextContext} from './Tree';
+import {TextContext} from '../Tree';
 
 function Level3() {
     return (

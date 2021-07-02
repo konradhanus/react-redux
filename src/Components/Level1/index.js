@@ -1,5 +1,5 @@
-import Level2 from './Level2';
-import {TextContext} from './Tree';
+import Level2 from '../Level2';
+import {TextContext} from '../Tree';
 
 function Level1() {
     return (

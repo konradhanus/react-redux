@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Level1 from './Level1';
-
 export const TextContext = React.createContext('light');
 
 function Tree() {
